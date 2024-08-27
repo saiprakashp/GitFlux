@@ -656,3 +656,20 @@
   656  echo $history > README.md 
   657  cat README.md 
   658  history > README.md 
+  659  cat README.md 
+  660  git add .
+  661  git commit -m "updated"
+  662  git push
+  663  git secret README.md
+  664  GREP secret README.md
+  665  grep secret README.md 
+  666  rm README.md 
+  667  git add .
+  668  git push
+  669  git add .
+  670  git stauts
+  671  git status
+  672  git push
+  673  git config --global user.email
+  674  git push
+  675  history > README.md 
